@@ -568,8 +568,7 @@ VALUE=$(ls {1..7}/final/ | grep merged.mp4 | wc -l)
 if [ $VALUE -eq 7 ] ; then
              echo "Everything checks out" && toilet -t -f mono9 --filter border:gay "7/7 Complete :D"
      else
-						 figlet "Oh no?! D:"
-             echo "something doesn't look right"
+             echo "something doesn't look right" && figlet "Oh no?! D:"
 
 fi
 echo "----------------------------------------------------"
