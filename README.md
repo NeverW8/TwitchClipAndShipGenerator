@@ -49,13 +49,12 @@ This will install the libs + deb packages required (+ some extras) for the progr
 Then.. run:
 
 > ./tcg.sh
+
 This will run the "Twitch Clip Generator".
 
 It will install/create the directories along with downloading the clips then eventually render them together.
 
 At this point we'll need to upload the video to youtube (whichever one you'd like)
-
-> something bla bla
 
 You do this by running:
 
@@ -82,7 +81,6 @@ You could always support by helping out committing or just fixing up our ugly co
 
 # Q & A's
 
-!Q How long does it take to render?
-!A Depending on your hardware, everything from 10m to infinity (my machine crunches every clip in 30m's)
+Someday I will update this :)
 
 bla bla
